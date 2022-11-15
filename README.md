@@ -31,7 +31,8 @@ Exemplo: Para considerar o arquivo `D:\movies\movielist_final.csv` execute o com
  `mvn spring-boot:run "-Dspring-boot.run.arguments=D:\movies\movielist_final.csv"`<br/>
  * Também é possível iniciar aplicação através do arquivo `jar` informando o diretório do arquivo CSV para ser utilizado.<br/>
  Exemplo: Executar no terminal o comando `mvn package` que irá gerar o `api-rest-texo-it-0.0.1.jar` no diretório target.<br/>
- Acessar o diretório target e executar o comando `java -jar api-rest-texo-it-0.0.1.jar D:\movies\movielist_final.csv`<br/>
+ Acessar o diretório target e executar o comando <br/>
+ `java -jar api-rest-texo-it-0.0.1.jar D:\movies\movielist_final.csv`<br/>
 
  ## <strong>Obtenção dos dados da API</strong>
  * Com a aplicação em execução acessar o endpoint http://localhost:8080/swagger-ui/index.html localizar o método `GET /prizerange` e clicar no botão `Try it out`.<br/>
