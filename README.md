@@ -2,7 +2,7 @@
 
 Este projeto é uma API que realiza a leitura de arquivos CSV informados na inicialização da aplicação para popular um banco de dados H2 em memória.<br/>
 O banco em memória pode ser acessado pela [URL do H2](http://localhost:8080/h2) com a `JDBC URL:` jdbc:h2:mem:moviebd <br/>
-Fornece um endpoint onde obtem-se os dados do produtor com maior intervalo entre prêmios e o que obteve prêmios mais rápido.<br/>
+Fornece um endpoint onde obtém-se os dados do produtor com maior intervalo entre prêmios e o que obteve prêmios mais rápido.<br/>
 Foi utilizado SpringDoc com OpenAPI para fornecer o acesso a testes do [endpoint /prizerange.](http://localhost:8080/swagger-ui/index.html)
 
 ## <strong>Requisitos</strong>
