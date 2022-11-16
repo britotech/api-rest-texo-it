@@ -19,6 +19,7 @@ Aplicação irá tentar ler o arquivo `D:\CDF\api-rest-texo-it\src\main\resource
 Isso em um ambiente real seria validado com a equipe para saber qual é a abordagem padrão a ser seguida.
 
 ## <strong>Execução de testes</strong>
+* Os testes usam o arquivo padrão fornecido que se encontra no `diretório da aplicação/src/test/resources/movielist_test.csv`.
 * No terminal acessar o diretório do projeto e executar o comando `mvn verify` que irá realizar a execução dos testes resultando em algo semelhante a imagem abaixo.<br/> 
 <div align="center">
   <img src="01-execucao_testes.jpg"/>
